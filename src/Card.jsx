@@ -10,7 +10,7 @@ function Card(props) {
 
 <div className="ContainerTexte">
 <div className="ContainerLocation">
-<p className="CardLocation"> <img src={pin} className="pin" alt="pin icon"  /> {props.location}</p> <p className="GoogleMaps"> View on Google Maps</p></div>
+<p className="CardLocation"> <img src={pin} className="pin" alt="pin icon"  /> {props.location}</p> <p className="GoogleMaps"><a href={props.googleMapsUrl}> View on Google Maps </a></p></div>
 <p className="CardTitle"> {props.title}</p>
 <p className="CardDate"> {props.startDate} - {props.endDate}</p>
 
