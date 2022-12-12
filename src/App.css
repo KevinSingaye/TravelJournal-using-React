@@ -14,7 +14,7 @@
     width: 65vmax;
     color: white;
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-border-top-left-radius: 15px;
@@ -33,12 +33,31 @@
     margin-right: 10px;
 }
 
+.cards-list {
+    border: 1px solid #A4A4A4;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 1px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 1200px;
+    width: 865px;
+    margin-left: 194px;
+}
+
 .CardContainer {
-    margin-left: 35vh;
+    margin-left: 10vh;
+    margin-top: 15vh;
+    border-top: 3px, solid, red;
 }
 
 .Card {
     text-align: justify;
+    height: 250px;
 }
 
 .ContainerTexte {
@@ -79,14 +98,9 @@
     font-weight: bold;
 }
 
-.CardContainer {
-    display: flex;
-    flex-wrap: row
-}
-
 .CardImg {
     height: 290px;
-    width: 200px;
+    width: 205px;
     -webkit-border-radius: 19px;
     -moz-border-radius: 19px;
     border-radius: 19px;

@@ -7,12 +7,19 @@ import Card from './Card'
 
 function App() {
   const [count, setCount] = useState(0)
-
+const cards = data.map(item => {
+      return (
+            <Card   key={item.id}
+                {...item} />
+        )
+      })
   return (
 
     <>
     <Header/>
-    <Card/>
+     <section className="cards-list">
+            {cards}
+            </section>
   
     </>
   )
