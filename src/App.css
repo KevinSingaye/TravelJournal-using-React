@@ -1,0 +1,93 @@
+#root {
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.App {
+    font-size: large;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(170, 14, 14);
+    width: 65vmax;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 1px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-bottomright: 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 1px;
+}
+
+.logo {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.CardContainer {
+    margin-left: 35vh;
+}
+
+.Card {
+    text-align: justify;
+}
+
+.ContainerTexte {
+    margin-left: 29vh;
+    position: relative;
+    top: -38vh;
+}
+
+.ContainerLocation {
+    display: flex;
+    flex-direction: row;
+}
+
+.CardLocation {
+    font-size: smaller;
+    padding-right: 10px;
+}
+
+.pin {
+    width: 12px;
+    fill: indianred;
+}
+
+.GoogleMaps {
+    font-size: smaller;
+    text-decoration: underline;
+    color: grey;
+}
+
+.CardTitle {
+    font-style: bold;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.CardDate {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.CardContainer {
+    display: flex;
+    flex-wrap: row
+}
+
+.CardImg {
+    height: 290px;
+    width: 200px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+}
